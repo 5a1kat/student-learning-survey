@@ -70,11 +70,11 @@ if not df.empty:
 else:
     st.info("No data yet. Be the first to submit a response in the sidebar!")
 
-"""# Set visual style
+# Set visual style
 sns.set_theme(style="whitegrid")
 
 # Seed for reproducibility
-np.random.seed(42)"""
+np.random.seed(42)
 
 # Create a dictionary of survey questions/responses
 data = {
